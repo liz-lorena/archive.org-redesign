@@ -200,6 +200,10 @@ a {
   color: red;
 }
 
+div.right-box.fl {
+    margin-right: -200px;
+}
+
 .main-box .list-box li {
   float: left;
   margin-right: 43px;
