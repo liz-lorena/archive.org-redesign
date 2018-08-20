@@ -1,258 +1,369 @@
-body {
-  background: #fff;
+.scoot-left{
+  margin-right: 20px;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn {
+  padding: 6px 12px;
   font-size: 14px;
-  font-family: Arial, Cursive, Sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #000; 
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-dl,
-dt,
-dd,
-form,
-img,
-p {
-  margin: 0;
-  padding: 0;
-  border: none;
-  list-style-type: none;
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 
-.navs a:hover,
-.header-top a:hover {
-  color: #0d407c;
+
+.downloadoptions, .collectionimg, .uploaddata{
+  background-color: lightgrey;
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 250px;
+  margin-left: 100px:
+}
+.topics{
+  color: blue;
 }
 
-a {
+.smallbtn1:hover{
+  background-color: #8e5c00;
+}
+
+.smallbtn2:hover{
+  background-color: #63b563;
+}
+
+
+.smallbtn3:hover{
+  background-color: #e82c2c;
+}
+
+.smallbtn4:hover{
+  background-color: #3c758c;
+}
+
+.smallbtn5:hover{
+  background-color: #2f2fe2;
+}
+
+.smallbtn1, .smallbtn2, .smallbtn3, .smallbtn4, .smallbtn5{
+    color: white;
+    border-color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.smallbtn1 {
+  background-color: orange;
+  border-style: solid;
+  border-radius: 8px;
+}
+.smallbtn2 {
+  background-color: lightgreen;
+  border-style: solid;
+  border-radius: 8px;
+}
+.smallbtn3 {
+  background-color: lightpink;
+  border-style: solid;
+  border-radius: 8px;
+}
+.smallbtn4 {
+  background-color: skyblue;
+  border-radius: 8px;
+  color: white;
+}
+.smallbtn5 {
+  background-color: darkblue;
+  border-radius: 6px;
+  color: white;
+  display: block;
+  margin-bottom: 30px;
+  width: 1005px;
+}
+.smallbuttons{
+  height: 30px;
+}
+
+.circle{
+  border-radius:200px;
+}
+
+.downloadoptions{
+  text-align: left;
+  margin-right: gray;
+}
+
+.imgicons{
+  margin-right: 15px;
+}
+
+.footer{
+  border-top: 1px gray solid;
+  height: 300px;
+  align: left;
+  width: 1027px;
+  margin-top: -33px;
+  background-color: lightgray;
+  margin-left: -18px;
+}
+
+.leftboxcontent{
+  max-width: 50%;
+}
+
+.add-review{
+  margin-top: -25px;
+  color: black;
+}
+
+.reviews{
+  min-height: 200px;
+}
+
+.data{
+  font-size: 15pt;
+}
+
+.rightboxcontent{
+  width: 40%;
+  text-align: center;
+  background-color: white;
+}
+
+.headeroffooter{
+  text-align:center;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+.reviews, .data{
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.center-box{
+  align: center;
+  border: 1px gray solid;
+  width: 925px;
+  padding: 50px;
+  height: 750px;
+  background-color: white;
+  margin-top: -33px;
+  margin-left: -18px;
+}
+
+body{ 
+  font-size:14px; 
+  font-family:Arial, Cursive, Sans-serif;
+   margin:0;
+   padding:0; 
+   color:#000;
+   background-color: white;
+    background-repeat: no-repeat;
+    background-position: center; 
+  background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
+  margin:0;
+  padding:0; 
+  border:none; 
+  list-style-type:none;
+}
+a{
   text-decoration: none;
-  color: #000;
   cursor: pointer;
 }
-
-.fl {
-  float: left;
+.fl{
+  float:left;
 }
-
-.fr {
-  float: right;
+.fr{
+  float:right;
 }
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+.clearfix:after{
+  content:"."; 
+  display:block; 
+  height:0; clear:both;
+  visibility:hidden;
 }
-
-*html .clearfix {
-  height: 1%;
+*html .clearfix{
+ height:1%;
 }
-
-*+html .clearfix {
-  height: 1%;
+*+html .clearfix{
+ height:1%;
 }
-
-.container {
+.container{
   width: 1030px;
   margin: 0 auto;
 }
-
-.header {
-  background-color: #000;
-  color: #fff;
+.header{
+  background-color: black;
+  width: 100%;
 }
-
-.header a {
-  color: #fff;
+.header a{
 }
-
-.header .right a {
-  margin: 20px;
-}
-
-.header-top {
-  height: 80px;
-  line-height: 80px;
+.header-top{
+  height: 50px;
+  line-height: 50px;
   border-bottom: 1px solid #ddd;
 }
-
-.header-top li {
+.header-top li{
   float: left;
   margin-left: 20px;
 }
-
-.header-top .middle {
+.header-top .middle{
   margin-left: 150px;
 }
-
-.header-top .btn-login {
+.header-top .btn-login{
   background-color: #fff;
   width: 100px;
   text-align: center;
   color: #000;
   line-height: 48px;
   display: inline-block;
-  border: 1px solid #000;
+  border:1px solid #000;
+}
+.header-top a,
+.navs a {
+  color: white;
 }
 
-.navs {
-  height: 35px;
-  line-height: 35px;
+.navs a:hover, .header-top a:hover{
+  color: #0d407c;
+}
+
+.navs{
+  height: 30px;
+  line-height: 30px;
   text-align: center;
-}
 
-.navs ul {
+}
+.navs ul{
   width: 70%;
   margin: 0 auto;
-}
 
-.navs li {
+}
+.navs li{
   float: left;
   margin-right: 20px;
 }
-
-.logo-box {
-  padding: 20px 20px;
-  border: 1px solid #ddd;
+.image-box{
+  padding: 20px 13px;
+  border:1px solid #ddd;
+  background-color: black;
+  
 }
 
-.logo-box .logo {
-  width: 150px;
-  height: 100px;
-  margin-right: 20px;
-}
-
-.logo-box .introduce {
-  width: 670px;
-}
-
-.logo-box .introduce h2 {
-  margin-bottom: 10px;
-}
-
-.logo-box .introduce p {
-  font-size: 12px;
-}
-
-.logo-box .right .btn {
-  display: block;
-  margin-bottom: 20px;
-}
-
-.main-box .left-box {
+.main-box .left-box{
   width: 200px;
   font-size: 12px;
   margin-right: 20px;
   margin-top: 20px;
+  
 }
-
-.main-box .left-box h3 {
+.main-box .left-box h3{
   font-size: 18px;
   font-weight: normal;
-  padding: 7px 10px;
-  background-color: #337ab7;
-  color: #fff;
+  background-color: #ddd;
+  padding: 5px 10px;
 }
-
-.main-box .left-box .bd {
-  border: 1px solid #ddd;
+.main-box .left-box .bd{
+  border:1px solid #ddd;
   padding: 20px 10px;
-  overflow: hidden;
 }
-
-.main-box .left-box .result {
+.main-box .left-box .result{
   font-size: 16px;
   margin-bottom: 20px;
   text-align: center;
 }
-
-.main-box .left-box .bd input[type="checkbox"] {
+.main-box .left-box .bd input[type="checkbox"]{
   vertical-align: top;
-  margin: 2px 5px 0 0;
 }
-
-.main-box .left-box .bd .name {
+.main-box .left-box .bd .name{
   width: 110px;
   display: inline-block;
 }
-
-.main-box .left-box .bd .more {
+.main-box .left-box .bd .more{
+  color: red;
   font-size: 14px;
   margin-top: 10px;
   display: inline-block;
   padding-left: 5px;
-  float: right;
 }
-
-.main-box .right-box .middle a {
+.main-box .right-box{
+  width: 770px;
+  padding:30px 20px;
+}
+.main-box .right-box .middle a{
   margin-left: 20px;
   display: inline-block;
   color: red;
 }
 
-.main-box .list-box li {
-  float: left;
-  margin-right: 43px;
-  margin-top: 43px;
-  background-color: #fcf8e3;
+.list-box{
+  margin-top: -45px;
+  margin-left: 25px;
+  background-color: lightgray;
 }
 
-.main-box .list-box .img {
+.main-box .list-box li{
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.main-box .list-box .img{
   width: 200px;
   height: 170px;
 }
-
-.main-box .list-box .tit {
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  border: 1px solid #ddd;
+.img{
+  color: black
 }
-
-.main-box .right-box .more {
+.main-box .list-box .tit{
+  text-align: center;
+  height: 40px;
+  line-height: 30px;
+  border:1px solid #ddd;
+  background-color: #ddd;
+  color: black;
+}
+.main-box .right-box .more{
   text-align: center;
   margin-top: 50px;
-  height: 40px;
-  line-height: 40px;
+  background-color: #ddd;
+  height: 30px;
+  line-height: 30px;
 }
-
-input,
-select {
-  border: 1px solid #ddd;
+input, select{
+  border:1px solid #ddd;
   border-radius: 5px;
   padding: 5px 0;
 }
-
-img {
-  border: 0;
-}
-
-.pager a {
-  padding: 5px 10px;
-}
-
-.main-box .list-box ul {
-  margin-right: -25px;
-}
-
-.main-box .list-box li {
-  float: left;
-  margin-right: 25px;
-  margin-top: 43px;
-  background-color: #fcf8e3;
-}
-
-.main-box .right-box {
-  width: 920px;
-  padding: 30px 20px;
+img{
+  border:0;
+  
 }
