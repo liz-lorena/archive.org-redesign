@@ -1,0 +1,258 @@
+body {
+  background: #fff;
+  font-size: 14px;
+  font-family: Arial, Cursive, Sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+img,
+p {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+}
+
+.navs a:hover,
+.header-top a:hover {
+  color: #0d407c;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+*html .clearfix {
+  height: 1%;
+}
+
+*+html .clearfix {
+  height: 1%;
+}
+
+.container {
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header .right a {
+  margin: 20px;
+}
+
+.header-top {
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-top li {
+  float: left;
+  margin-left: 20px;
+}
+
+.header-top .middle {
+  margin-left: 150px;
+}
+
+.header-top .btn-login {
+  background-color: #fff;
+  width: 100px;
+  text-align: center;
+  color: #000;
+  line-height: 48px;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.navs {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.navs ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navs li {
+  float: left;
+  margin-right: 20px;
+}
+
+.logo-box {
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+}
+
+.logo-box .logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.logo-box .introduce {
+  width: 670px;
+}
+
+.logo-box .introduce h2 {
+  margin-bottom: 10px;
+}
+
+.logo-box .introduce p {
+  font-size: 12px;
+}
+
+.logo-box .right .btn {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main-box .left-box {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.main-box .left-box h3 {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 7px 10px;
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.main-box .left-box .bd {
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+
+.main-box .left-box .result {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-box .left-box .bd input[type="checkbox"] {
+  vertical-align: top;
+  margin: 2px 5px 0 0;
+}
+
+.main-box .left-box .bd .name {
+  width: 110px;
+  display: inline-block;
+}
+
+.main-box .left-box .bd .more {
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  padding-left: 5px;
+  float: right;
+}
+
+.main-box .right-box .middle a {
+  margin-left: 20px;
+  display: inline-block;
+  color: red;
+}
+
+.main-box .list-box li {
+  float: left;
+  margin-right: 43px;
+  margin-top: 43px;
+  background-color: #fcf8e3;
+}
+
+.main-box .list-box .img {
+  width: 200px;
+  height: 170px;
+}
+
+.main-box .list-box .tit {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+}
+
+.main-box .right-box .more {
+  text-align: center;
+  margin-top: 50px;
+  height: 40px;
+  line-height: 40px;
+}
+
+input,
+select {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+img {
+  border: 0;
+}
+
+.pager a {
+  padding: 5px 10px;
+}
+
+.main-box .list-box ul {
+  margin-right: -25px;
+}
+
+.main-box .list-box li {
+  float: left;
+  margin-right: 25px;
+  margin-top: 43px;
+  background-color: #fcf8e3;
+}
+
+.main-box .right-box {
+  width: 920px;
+  padding: 30px 20px;
+}

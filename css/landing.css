@@ -1,0 +1,456 @@
+.scoot {
+  margin-left: 10px;
+}
+
+.scoot-left {
+  margin-right: 20px;
+}
+
+.logo-box .right .btn {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn2 {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+.sharebtn2,
+.sharebtn3,
+.sharebtn4 {
+  margin-left: 35px;
+}
+
+.sharebtns {
+  margin-top: 50px;
+  margin-left: 37%;
+}
+
+.footer {
+  border-top: 1px grey solid;
+  height: 370px;
+  align: left;
+  width: 100%;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.textcol {
+  align: center;
+  font-size: 16pt;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.backgroundcontent {
+  width: 40%;
+}
+
+.col2,
+.col3 {
+  margin-left: 55px;
+}
+
+.col1,
+.col2,
+.col3 {
+  float: left;
+  max-width: 380px;
+}
+
+.col1 a {
+  font-size: 12pt;
+  color: white;
+}
+
+.col1 {
+  max-width: 99px;
+}
+
+.background-text {
+  font-size: 11pt;
+}
+
+input[type=text] {
+  width: 70%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #c9c9c9;
+}
+
+.searchbutton:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.searchbutton {
+  font-size: 15pt;
+  padding: 10%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.button {
+  width: 30%;
+  padding: 10%;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin: auto;
+  max-width: 14em;
+  font-size: 15pt;
+  padding-top: 48px;
+}
+
+.button2 {
+  font-size: 15pt;
+  width: 29%;
+  padding: 10%;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin: auto;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: #c9c9c9;
+}
+
+.search-box {
+  width: 50%;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.center-box {
+  align: center;
+  border: 1px grey solid;
+  width: 90%;
+  margin-left: 15%;
+  padding: 50px;
+  min-height: 400px;
+  background-color: white;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Cursive, Sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: white;
+  background-image: url(http://i66.tinypic.com/4sl74w.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+img,
+p {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+*html .clearfix {
+  height: 1%;
+}
+
+*+html .clearfix {
+  height: 1%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1030px;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+}
+
+.header-top {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-top li {
+  float: left;
+  margin-left: 20px;
+}
+
+.header-top .middle {
+  margin-left: 150px;
+}
+
+.header-top .btn-login {
+  background-color: #fff;
+  width: 100px;
+  text-align: center;
+  color: #000;
+  line-height: 48px;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.header-top a,
+.navs a {
+  color: white;
+}
+
+.navs a:hover,
+.header-top a:hover {
+  color: #0d407c;
+}
+
+.navs {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.navs ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navs li {
+  float: left;
+  margin-right: 20px;
+}
+
+.logo-box {
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  background-color: #fcf8e3;
+}
+
+.logo-box .logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.logo-box .introduce {
+  width: 670px;
+}
+
+.logo-box .introduce h2 {
+  margin-bottom: 10px;
+}
+
+.logo-box .introduce p {
+  font-size: 12px;
+}
+
+.logo-box .right .btn {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main-box {
+  margin-top: 50px;
+}
+
+.main-box .left-box {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.main-box .left-box h3 {
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #ddd;
+  padding: 5px 10px;
+}
+
+.main-box .left-box .bd {
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+}
+
+.main-box .left-box .result {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-box .left-box .bd input[type="checkbox"] {
+  vertical-align: top;
+}
+
+.main-box .left-box .bd .name {
+  width: 110px;
+  display: inline-block;
+}
+
+.main-box .left-box .bd .more {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.main-box .right-box {
+  width: 770px;
+  padding: 30px 20px;
+}
+
+.main-box .right-box .middle a {
+  margin-left: 20px;
+  display: inline-block;
+  color: red;
+}
+
+.main-box .list-box li {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.main-box .list-box .img {
+  width: 200px;
+  height: 170px;
+}
+
+.main-box .list-box .tit {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+}
+
+.main-box .right-box .more {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #ddd;
+  height: 30px;
+  line-height: 30px;
+}
+
+input,
+select {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+img {
+  border: 0;
+}
